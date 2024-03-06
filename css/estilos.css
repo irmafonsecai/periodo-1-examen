@@ -1,0 +1,102 @@
+
+/* No cambiar los estilos que aquí te dejo, solo debes complementar según las instrucciones
+del examen */
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Babylonica&family=Gloock&family=Mynerve&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.contenedor{
+    background-color: lightblue;
+    box-sizing: border-box 80px;
+}
+.contenedor h1{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.contenedor h2{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.background{
+    box-sizing:border-box 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenido{
+    text-align: center;
+    padding-top: 30px;    
+    padding-right: 40px;
+}
+.contenido h2{
+    color: blueviolet;
+}
+.contenido p{
+    text-align: justify;
+    font-size: 25px;
+    
+}
+.contenido ol{
+    text-align: left;
+    font-size: 25px;
+    padding: 40px;
+}
+.contenido ul{
+    text-align: left;
+    font-size: 25px;
+    padding: 40px;
+}
+
+.encabezado{
+    padding: 0.1px; 
+    background-image: url(../img/imagen1.jpg); 
+    height: 400px;
+}
+.encabezado h2{
+     color: orangered;
+     height: 400px;
+     margin-left: 50px;
+     line-height: 400px;
+     font-size: 30px;
+     font-family: "Gloock", serif;
+}   
+
+.usos{
+    background-image: url(../img/imagen2.jpeg);
+    height: 400px;
+    color: aliceblue;
+    text-align: center;
+    line-height: 600px;
+}
+
+.sintaxis{
+        background-image: url(../img/imagen3.jpg);
+        height: 400px;
+        color: white;
+        line-height: 100vh;
+    
+    }
+  
+.datos{
+    background-color: darkviolet;
+    color: aliceblue;
+    font-family: "Mynerve", cursive;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+} 
+
+h4{
+        font-size: 24px;
+        font-family: 'Gloock', serif;
+        line-height: 500px;
+        text-align: center;
+}
